@@ -1,0 +1,238 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Stylish Curriculum Vitae
+% LaTeX Template
+% Version 1.0 (18/7/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Stefano (http://stefano.italians.nl/)
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% The main font used in this template, Adobe Garamond Pro, does not 
+% come with Windows by default. You will need to download it in
+% order to get an output as in the preview PDF. Otherwise, change this 
+% font to one that does come with Windows or comment out the font line 
+% to use the default LaTeX font.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[a4paper, oneside, final]{scrartcl} % Paper options using the scrartcl class
+
+\usepackage[top=1.2in, bottom=0.9in, right=0.9in, left=0.9in]{geometry}
+
+\usepackage{scrpage2} % Provides headers and footers configuration
+\usepackage{titlesec} % Allows creating custom \section's
+\usepackage{marvosym} % Allows the use of symbols
+\usepackage{tabularx,colortbl} % Advanced table configurations
+\usepackage{fontspec} % Allows font customization
+
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont{Adobe Garamond Pro} % Main document font
+
+\titleformat{\section}{\large\scshape\raggedright}{}{0em}{}[\titlerule] % Section formatting
+
+\pagestyle{scrheadings} % Print the headers and footers on all pages
+
+\addtolength{\voffset}{-0.5in} % Adjust the vertical offset - less whitespace at the top of the page
+\addtolength{\textheight}{3cm} % Adjust the text height - less whitespace at the bottom of the page
+
+\newcommand{\gray}{\rowcolor[gray]{.90}} % Custom highlighting for the work experience and education sections
+
+%----------------------------------------------------------------------------------------
+% ÊFOOTER SECTION
+%----------------------------------------------------------------------------------------
+
+\renewcommand{\headfont}{\normalfont\rmfamily\scshape} % Font settings for footer
+
+\cofoot{
+\addfontfeature{LetterSpace=20.0}\fontsize{12.5}{17}\selectfont % Letter spacing and font size
+
+855 Springvale Rd {\large\textperiodcentered} Mulgrave {\large\textperiodcentered} Victoria 3170 {\large\textperiodcentered} Australia \\ % Your mailing address
+{\Large\Letter} roger.close@gmail.com \ {\Large\Telefon} (+61) 423 131 176 % Your email address and phone number
+}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\begin{center} % Center everything in the document
+
+%----------------------------------------------------------------------------------------
+% ÊHEADER SECTION
+%----------------------------------------------------------------------------------------
+
+{\addfontfeature{LetterSpace=20.0}\fontsize{36}{36}\selectfont\scshape Roger A. Close} % Your name at the top
+
+\vspace{1.5cm} % Extra whitespace after the large name at the top
+
+%----------------------------------------------------------------------------------------
+%	OBJECTIVE
+%----------------------------------------------------------------------------------------
+
+%\section{Objective}
+%
+%A position in the field of computers with special interests in business applications \\ programming, information processing, and management systems.
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+%\section{Tertiary Education}
+%
+%\begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{2cm}X}
+%\gray Period & \textbf{1999-2005}\\
+%\gray Qualification & \textbf{Bachelor of Arts/Science} \hfill Monash University \\
+%\gray Job Title & \textbf{J2EE Analyst programmer}\\
+%\gray Languages & \textbf{J2EE}\\
+%Ê Ê Ê Ê& Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et auctor neque. Nullam ultricies sem sit amet magna tristique imperdiet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus eget mollis nunc.
+%\end{tabularx}
+%
+%\vspace{12pt}
+%
+%\begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{2cm}X}
+%\gray Period & \textbf{March 2009 --- August 2010 (Part Time)}\\
+%\gray Employer & \textbf{Buy More} \hfill New York, USA\\
+%\gray Job Title & \textbf{Supermarket Clerk}\\
+%Ê Ê Ê Ê& Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et auctor neque. Nullam ultricies sem sit amet magna tristique imperdiet.
+%\end{tabularx}
+%
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Tertiary Education}
+
+\begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{2cm}X}
+\gray Period & \textbf{October 2008 to present}\\
+\gray Degree & \textbf{Doctor of Philosophy}\\
+\gray Institution & \textbf{Science Faculty, Monash University} \hfill Melbourne, Australia\\
+\gray Supervisors & \textbf{Professor Patricia Vickers-Rich \& Dr Emily Rayfield}\\
+\gray Title & \textbf{Transformation of a Functional Complex: Early Evolution of the Flight Apparatus of Birds}\\
+& Funded from October 2008 to April 2012 by full-time scholarship (Faculty of Science Dean's Postgraduate Research Scholarship). Eighteen months between January 2009 and October 2010 spent visiting external co-supervisor, Dr Emily Rayfield, at the University of Bristol (Department of Earth Sciences), and visiting other palaeontological institutions in the UK, China, Spain, Germany and the USA.
+\end{tabularx}
+
+\vspace{12pt}
+
+\begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{2cm}X}
+\gray Period & \textbf{2005-2007}\\
+\gray Degree & \textbf{Graduate Diploma of Science (Zoology)}\\
+\gray Institution & \textbf{Monash University} \hfill Melbourne, Australia\\
+& Focus on anatomy, ecology and evolution, with semester on exchange at the University of California, Santa Barbara.
+\end{tabularx}
+
+\vspace{12pt}
+
+\begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{2cm}X}
+\gray Period & \textbf{1999-2005}\\
+\gray Degree & \textbf{Bachelor of Arts/Science (Hons)}\\
+\gray Institution & \textbf{Monash University} \hfill Melbourne, Australia\\
+& Double-major in Geosciences; major in Archaeology and Ancient History; minor in Geography and Environmental Sciences. Honours in Archaeology and Ancient History. 
+\end{tabularx}
+
+
+%----------------------------------------------------------------------------------------
+%	EMPLOYEMNT
+%----------------------------------------------------------------------------------------
+
+\section{Employment}
+
+\begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{2cm}X}
+\gray Employer & \textbf{School of Biological Sciences, Monash University}\\
+\gray Period & \textbf{February 2008 to present}\\
+\gray Position & \textbf{Sessional Demonstrator}\\
+& Laboratory demonstrator in first-year biology practicals. Duties also include report- and essay-marking. Hiatus between mid-2009 and mid-2012 due to eighteen-month stay at University of Bristol and focus on research.
+\end{tabularx}
+
+\vspace{12pt}
+
+\begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{2cm}X}
+\gray Employer & \textbf{School of Geosciences, Monash University}\\
+\gray Period & \textbf{July 2008 to present}\\
+\gray Position & \textbf{Sessional Demonstrator}\\
+& Laboratory demonstrator in senior-level palaeobiology practicals, including report-marking. Hours intermittent; hiatus between mid-2009 and mid-2012 due to eighteen-month stay at University of Bristol and focus on research.
+\end{tabularx}
+
+\vspace{12pt}
+
+\begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{2cm}X}
+\gray Employer & \textbf{Museum Victoria}\\
+\gray Period & \textbf{April to June 2012}\\
+\gray Position & \textbf{Contract Work Processing 3D Scan Data}\\
+& Processed a number of high-resolution synchrotron mCT scans of Mesozoic mammal specimens from raw CT stacks to finished surface files suitable for 3D printing. Developed novel techniques for removing high densities of fractures.
+\end{tabularx}
+
+\clearpage
+\section{Publications}
+\begin{flushleft}
+Close, R., Vickers-Rich, P., Trusler, P., Chiappe, L.M., O'Connor, J.K., Rich, T.H., Kool, L. and Komarower, P. (2009) Earliest Gondwanan bird from the Cretaceous of southeastern Australia. \emph{Journal of Vertebrate Paleontology} \textbf{29}: 616-619.
+
+\vspace{6pt}
+
+Close, R. and Rayfield, E.J. (2012) Functional Morphometric Analysis of the Furcula in Mesozoic Birds. \emph{PLoS ONE} \textbf{7}: e36664. \\Available: http://www.plosone.org/article/info:doi/10.1371/journal.pone.0036664.
+\end{flushleft}
+
+\section{Abstracts}
+\begin{flushleft}
+Close, R. (2008) Earliest Gondwanan bird from the Cretaceous of southeastern Australia.\\
+\vspace{6pt}
+Close, R. (2009) Australia's Mesozoic Birds: New Material from the Early Cretaceous of Victoria. Society of Vertebrate Paleontology Annual Meeting, September 2009, Bristol.\\
+\vspace{6pt}
+Close, R. (2010) Modelling the mechanical behaviour of the avian furcula. [Poster] Progressive Palaeontology, Bristol.\\
+\vspace{6pt}
+Close, R. and Rayfield, E.J. (2012) Functional morphometric analysis of the furcula in Mesozoic birds. The Palaeontological Association 55th Annual Meeting, 17th-20th December 2011, Plymouth.\\
+\vspace{6pt}
+Close, R. and Evans, A.R. (2012). High-resolution synchrotron microCT of fossils: 3D printing and analysis. Avizo Workshop, 28th August 2012, Australian Synchrotron, Clayton.
+
+\end{flushleft}
+
+\section{Grants and Awards}
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+October 2008 & Monash University Faculty of Science Dean's Scholar \\ & Postgraduate Scholarship (3.5 years) \\
+August 2009 & Monash University Travel Grant (AU\$2500) \\
+September 2009 & Jackson School of Geosciences Student Member Travel Grant (US\$600).
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	ADDITIONAL EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Additional Experience}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Field Work & Dig-crew Member, Dinosaur Dreaming, Victoria, Australia --- 1999 to present.\\
+& Excavations with Adelaide Museum at Lake Palankarinna, 1999.\\
+& Excavations with Flinders University at the Naracoorte Caves, 2000.\\
+\\
+Conferences & CAVEPS 2007, Melbourne; SAPE 2008, Sydney; SVP 2009, Bristol; \\ & IPC3 2010, London; Progressive Palaeontology 2010, Bristol.
+
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	SKILLS
+%----------------------------------------------------------------------------------------
+
+\section{Skills}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Key Skills & Comparative anatomy; vertebrate biomechanics; morphometrics; \\ & biostatistical analysis, encompassing Phylogenetic Comparative Methods \\
+\\
+3D Software & Avizo, Geomagic, Blender \\
+Morphometric Software & James Rohlf's `tps' suite, Landmark, morphologika, MorphoJ \\
+FEA Software &  Abaqus, Hypermesh \\
+Phylogenetics Software & Mesquite, MacClade, FigTree, Dendroscope \\
+Selected R Packages & \texttt{ape}, \texttt{geiger}, \texttt{caper}, \texttt{picante}, \texttt{adephylo}, \texttt{phytools}, \texttt{shapes}, \texttt{ggplot2} \\
+Additional Software & Document preparation with \LaTeX; reproducible data analysis practices \\ 
+& with \texttt{knitr} and Sweave; project management via version-control tools \texttt{git}/GitHub
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+
+\end{center}
+
+\end{document}
