@@ -1,3 +1,1 @@
-# README
-
-This is the academic CV for Roger Close, palaeobiologist extraordinaire.
+This is Roger Close's academic CV.
