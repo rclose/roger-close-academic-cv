@@ -24,7 +24,7 @@
 
 \documentclass[a4paper, oneside, final]{scrartcl} % Paper options using the scrartcl class
 
-\usepackage[top=1.2in, bottom=2in, right=0.9in, left=0.9in]{geometry}
+\usepackage[top=1.2in, bottom=1.9in, right=0.8in, left=0.8in]{geometry}
 
 \usepackage{scrpage2} % Provides headers and footers configuration
 \usepackage{titlesec} % Allows creating custom \section's
@@ -56,8 +56,8 @@
 \cofoot{
 \addfontfeature{LetterSpace=20.0}\fontsize{12.5}{20}\selectfont % Letter spacing and font size
 
-28 Townsend Sq {\large\textperiodcentered} Oxford {\large\textperiodcentered} OX4 4BB {\large\textperiodcentered} UK\\ % Your mailing address
-{\Large\Letter} roger.close@earth.ox.ac.uk \ {\Large\Telefon} 07752 927887 % Your email address and phone number
+42 Boundary Brook Rd {\large\textperiodcentered} Oxford {\large\textperiodcentered} OX4 4AW {\large\textperiodcentered} UK\\ % Your mailing address
+{\Large\Letter} closeRA@bham.ac.uk \ {\Large\Telefon} +44 (0) 7752 927887 % Your email address and phone number
 }
 
 %----------------------------------------------------------------------------------------
@@ -70,21 +70,47 @@
 % HEADER SECTION
 %----------------------------------------------------------------------------------------
 
-{\addfontfeature{LetterSpace=20.0}\fontsize{36}{36}\selectfont\scshape Dr Roger A. Close} % Your name at the top
+{\addfontfeature{LetterSpace=20.0}\fontsize{36}{36}\selectfont\scshape Dr Roger Close} % Your name at the top
 
-\vspace{1.5cm} % Extra whitespace after the large name at the top
+\vspace{1cm} % Extra whitespace after the large name at the top
 
 %----------------------------------------------------------------------------------------
 %	CURRENT EMPLOYMENT
 %----------------------------------------------------------------------------------------
-\section{Current Employment}
+\section{Contact Details}
+\begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{2cm}X}
+\gray Address & 42 Boundary Brook Rd, Oxford, OX4 4AW\\
+\gray Email & closeRA@bham.ac.uk\\
+\gray Phone & +44 (0) 7752 927 887\\
+\end{tabularx}
+\vspace{6pt}
+
+\section{Research Interests}
+\begin{flushleft}
+I am a quantitative palaeobiologist. I study macroevolutionary and macroecological patterns and processes in deep time to understand the assembly of modern vertebrate biodiversity. I am interested in:
+
+\begin{itemize}
+\itemsep-0.5em
+  \item Macroecological patterns in Phanerozoic tetrapods and marine metazoans
+  \item Vertebrate macroevolution, ecomorphology, biomechanics (fishes, mammals, birds)
+  \item Use of computed tomography and 3D morphometrics on fossil and extant taxa
+  \item Evolution of discrete morphological characters and Bayesian phylogenetics
+\end{itemize}
+
+\end{flushleft}
+
+%%I am particularly interested in the tempo and mode of phenotypic evolution; morphological diversification; the evolution of discrete morphological characters; Bayesian phylogenetics; and patterns of taxonomic diversity in deep time. In pursuit of this goal, I apply a diverse range of analytical approaches, including statistical analyses, morphological and molecular phylogenetics, geometric morphometrics, functional morphology and biomechanics, and X-ray computed tomography.
+
+%\vspace{6pt}
+
+\section{Postdoctoral Appointments}
 
 \begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{2cm}X}
 \gray Period & \textbf{4 January 2016 to present}\\
-\gray Job Title & \textbf{ERC Postdoctoral Fellow}\\
+\gray Job Title & \textbf{ERC Research Fellow}\\
 \gray Institution & \textbf{School of Geography, Earth and Environmental Sciences, University of Birmingham}\\
-\gray PI & \textbf{Dr Richard Butler}\\
-& Principal postdoctoral researcher on ERC-funded project studying patterns of species richness in terrestrial vertebrates over the Phanerozoic. Primary responsibilities include leading the analysis of large datasets of fossil occurrences, developing novel analytical procedures and contributing to dissemination activities. Additional responsibilities including lecturing on palaeobiology, and supervising student research (doctoral and undergraduate).
+\gray PI & \textbf{Prof. Richard Butler}\\
+& {\small Reassessing patterns of Phanerozoic terrestrial diversity. Responsibilities: leading the analysis of large datasets of fossil occurrences, developing novel analytical procedures, disseminating results, lecturing on palaeobiology, supervising graduate and undergraduate student research.}
 \end{tabularx}
 
 \vspace{6pt}
@@ -92,18 +118,10 @@
 
 \begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{2cm}X}
 \gray Period & \textbf{15 January 2013 to 31 December 2015}\\
-\gray Job Title & \textbf{Postdoctoral Research Associate}\\
+\gray Job Title & \textbf{Leverhulme Postdoctoral Research Associate}\\
 \gray Institution & \textbf{Department of Earth Sciences, University of Oxford}\\
-\gray PI & \textbf{Professor Matt Friedman}\\
-& Research associate for Leverhulme-funded project studying patterns of functional and morphological disparity in teleost crania during the Late Cretaceous--Paleogene. Responsibilities included sourcing suitable specimens at many museums around the UK and Europe; acquiring and processing tomographic data for over 150 fossil fish specimens; collection of functional and 3D geometric-morphometric data from CT datasets; quantitative analysis using cutting-edge comparative methods; and authoring manuscripts.
-
-\vspace{6pt}
-
-While at Oxford I pursued a number of side-projects, including descriptive studies of fish and mammal fossils, and a high-profile study that quantified rates of evolution and disparity in Mesozoic mammals. 
-
-\vspace{6pt}
-
-In addition to my research duties, I also lectured in the fourth-year palaeobiology seminar series and delivered first-year statistics tutorials. 
+\gray PI & \textbf{Prof. Matt Friedman}\\
+& {\small Quantifying patterns of functional and morphological disparity in the early radiation of acanthomorph fishes. Responsibilities: specimen-based museum work, collecting and processing tomographic data, collecting trait data, quantitative analysis using comparative methods, dissemination of results. Some lecturing and tutorial duties.}
 \end{tabularx}
 
 
@@ -111,45 +129,46 @@ In addition to my research duties, I also lectured in the fourth-year palaeobiol
 %	EDUCATION
 %----------------------------------------------------------------------------------------
 
-\section{Tertiary Education}
+\section{Higher Education}
 
 \begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{2cm}X}
 \gray Period & \textbf{October 2008 to January 2013}\\
 \gray Degree & \textbf{Doctor of Philosophy}\\
 \gray Institution & \textbf{Science Faculty, Monash University} \hfill Melbourne, Australia\\
-\gray Supervisors & \textbf{Professor Patricia Vickers-Rich \& Dr Emily Rayfield}\\
+\gray Supervisors & \textbf{Prof. Patricia Vickers-Rich \& Prof. Emily Rayfield}\\
 \gray Title & \textbf{Transformation of a Functional Complex: Early Evolution of the Flight Apparatus of Birds}\\
-& Funded from October 2008 to April 2012 by full-time scholarship (Faculty of Science Dean's Postgraduate Research Scholarship). January 2009 -- October 2010 at University of Bristol visiting external co-supervisor, Dr Emily Rayfield, and examining specimens at other palaeontological institutions in the UK, China, Spain, Germany and USA.
+& {\small Funded from October 2008 to April 2012 by full-time scholarship (Faculty of Science Dean's Postgraduate Research Scholarship). January 2009 -- October 2010 at University of Bristol visiting external co-supervisor, Prof. Emily Rayfield.}
 \end{tabularx}
 
-\vspace{12pt}
+\vspace{6pt}
 
 \begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{2cm}X}
 \gray Period & \textbf{2005-2007}\\
 \gray Degree & \textbf{Graduate Diploma of Science (Zoology)}\\
 \gray Institution & \textbf{Monash University} \hfill Melbourne, Australia\\
-& Focus on anatomy, ecology and evolution, with semester on exchange at the University of California, Santa Barbara.
+& {\small Focus on anatomy, ecology and evolution, with semester on exchange at the University of California, Santa Barbara.}
 \end{tabularx}
 
-\vspace{12pt}
+\vspace{6pt}
 
 \begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{2cm}X}
 \gray Period & \textbf{1999-2005}\\
 \gray Degree & \textbf{Bachelor of Arts/Science (Hons)}\\
 \gray Institution & \textbf{Monash University} \hfill Melbourne, Australia\\
-& Double-major in Geosciences; major in Archaeology and Ancient History; minor in Geography and Environmental Sciences. Honours in Archaeology and Ancient History. 
+& {\small Double-major in Geosciences; major in Archaeology and Ancient History; minor in Geography and Environmental Sciences. Honours in Archaeology and Ancient History.}
 \end{tabularx}
+
 
 %----------------------------------------------------------------------------------------
 %	SKILLS
 %----------------------------------------------------------------------------------------
 
-\section{Key Skills}
-
-%\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-\begin{flushleft}
-Comparative anatomy; functional morphology and biomechanics; tomographic data acquisition and processing; geometric morphometrics; quantitative statistical and macroevolutionary analyses.
-\end{flushleft}
+%\section{Key Skills}
+%
+%%\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+%\begin{flushleft}
+%Quantitative analysis of macroevolutionary processes; programming in R; phylogenetic inference, including Bayesian total-evidence methods; geometric morphometrics; functional morphology and biomechanics, including finite-element analysis; acquisition and processing of X-ray tomographic data; comparative anatomy.
+%\end{flushleft}
 %\\
 %3D Software & Avizo, Geomagic, Blender \\
 %Morphometric Software & James Rohlf's `tps' suite, Landmark, morphologika, MorphoJ \\
@@ -161,49 +180,36 @@ Comparative anatomy; functional morphology and biomechanics; tomographic data ac
 %\end{tabular}
 
 
-%----------------------------------------------------------------------------------------
-%	SELECTED PAST EMPLOYEMNT
-%----------------------------------------------------------------------------------------
-
-\section{Selected Past Employment}
-
-\begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{2cm}X}
-\gray Employer & \textbf{School of Biological Sciences, Monash University} \hfill Melbourne, Australia\\
-\gray Period & \textbf{February 2008 to December 2012}\\
-\gray Position & \textbf{Sessional Demonstrator}\\
-& Laboratory demonstrator in first-year biology practicals, including report- and essay-marking. Hiatus between mid-2009 and mid-2012 due to travel and focus on research.
-\end{tabularx}
-
-\vspace{12pt}
-
-\begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{2cm}X}
-\gray Employer & \textbf{School of Geosciences, Monash University} \hfill Melbourne, Australia\\
-\gray Period & \textbf{July 2008 to December 2012}\\
-\gray Position & \textbf{Sessional Demonstrator}\\
-& Laboratory demonstrator in third-year palaeobiology practicals, including report-marking. Hiatus between mid-2009 and mid-2012 due to travel and focus on research.
-\end{tabularx}
-
-\vspace{12pt}
-
-\begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{2cm}X}
-\gray Employer & \textbf{Museum Victoria}  \hfill Melbourne, Australia\\
-\gray Period & \textbf{April to June 2012}\\
-\gray Position & \textbf{Contract Work Processing 3D Scan Data}\\
-& Processing high-resolution synchrotron mCT scans of Mesozoic mammal specimens, from raw CT stacks to finished surface files suitable for 3D printing. Developed novel techniques for removing high densities of fractures.
-\end{tabularx}
-
-
-%----------------------------------------------------------------------------------------
-%	GRANTS
-%----------------------------------------------------------------------------------------
-
-\section{Grants and Awards}
-\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-October 2008 & Monash University Faculty of Science Dean's Postgraduate Scholarship (3.5 years) \\
-August 2009 & Monash University Travel Grant (AU\$2500) \\
-September 2009 & Jackson School of Geosciences Student Member Travel Grant (US\$600).
-\end{tabular}
-
+%%----------------------------------------------------------------------------------------
+%%	SELECTED PAST EMPLOYEMNT
+%%----------------------------------------------------------------------------------------
+%
+%\section{Selected Past Employment}
+%
+%\begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{2cm}X}
+%\gray Employer & \textbf{School of Biological Sciences, Monash University} \hfill Melbourne, Australia\\
+%\gray Period & \textbf{February 2008 to December 2012}\\
+%\gray Position & \textbf{Sessional Demonstrator}\\
+%& Laboratory demonstrator in first-year biology practicals, including report and essay marking. 
+%\end{tabularx}
+%
+%\vspace{12pt}
+%
+%\begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{2cm}X}
+%\gray Employer & \textbf{School of Geosciences, Monash University} \hfill Melbourne, Australia\\
+%\gray Period & \textbf{July 2008 to December 2012}\\
+%\gray Position & \textbf{Sessional Demonstrator}\\
+%& Laboratory demonstrator in third-year palaeobiology practicals, including report-marking. 
+%\end{tabularx}
+%
+%\vspace{12pt}
+%
+%\begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{2cm}X}
+%\gray Employer & \textbf{Museum Victoria}  \hfill Melbourne, Australia\\
+%\gray Period & \textbf{April to June 2012}\\
+%\gray Position & \textbf{Contract Work Processing 3D Tomographic Data}\\
+%& Processing high-resolution synchrotron mCT scans of Mesozoic mammal specimens, from raw CT stacks to finished surface files suitable for 3D printing. Developed novel techniques for removing high densities of fractures.
+%\end{tabularx}
 
 %----------------------------------------------------------------------------------------
 %	PUBLICATIONS
@@ -211,48 +217,190 @@ September 2009 & Jackson School of Geosciences Student Member Travel Grant (US\$
 
 %\vspace{48pt}
 \section{Publications}
-\begin{flushleft}
-Close, R.A., Vickers-Rich, P., Trusler, P., Chiappe, L.M., O'Connor, J.K., Rich, T.H., Kool, L. \& Komarower, P. (2009). Earliest Gondwanan bird from the Cretaceous of southeastern Australia. \emph{Journal of Vertebrate Paleontology} \textbf{29}: 616-619. 
-%\href{http://dx.doi.org/10.1671/039.029.0214}{http://dx.doi.org/10.1671/039.029.0214}
 
+\begin{flushleft}
+
+\textbf{Close, R.A.}, Benson, R.B.J.B, Alroy, J., Behrensmeyer, A.K., Benito, J., Carrano, M.T., Cleary, T.J., Dunne, E.M., Mannion, P.D., Uhen, M.D. \& Butler, R.J. (submitted). Diversity dynamics of Phanerozoic terrestrial tetrapods at the local-community scale. \emph{Science}.
+\vspace{6Pt}
+
+\textbf{Close, R.A.}, Evers, S.W., Alroy, J. \& Butler, R.J. (in review). How should we estimate diversity in the fossil record? Testing richness estimators using sampling-standardised discovery curves. \emph{Methods in Ecology and Evolution}.
+\vspace{6Pt}
+
+Benson, R.B.J., Starmer-Jones, E., \textbf{Close, R.A.} \& Walsh, S.A. (2017). Comparative analysis of vestibular ecomorphology in birds. \emph{Journal of Anatomy}, \textbf{231}: 990--1018.
+%\href{http://dx.doi.org/10.1038/ncomms15381}{http://dx.doi.org/10.1038/ncomms15381}
+\vspace{6Pt}
+
+\textbf{Close, R.A.}, Benson, R.B.J.B, Upchurch, P. \& Butler, R.J. (2017). Controlling for the species-area effect supports constrained long-term Mesozoic terrestrial vertebrate diversification. \emph{Nature Communications}, \textbf{8}: 15381. 
+%\href{http://dx.doi.org/10.1038/ncomms15381}{http://dx.doi.org/10.1038/ncomms15381}
+\vspace{6Pt}
+
+\textbf{Close, R.A.}, Johanson, Z., Tyler, J.C., Harrington, R.C. \& Friedman, M. (2016). Mosaicism in new pufferfish family highlights accelerated character evolution near origin of crown tetraodontiforms. \emph{Palaeontology} \textbf{59}: 499--514. 
+\textbf{2 citations}
 \vspace{6pt}
 
-Close, R.A. \& Rayfield, E.J. (2012). Functional Morphometric Analysis of the Furcula in Mesozoic Birds. \emph{PLoS ONE} \textbf{7}: e36664. 
+\textbf{Close, R.A.}, Friedman, M., Lloyd, G.T. \& Benson, R.B.J. (2015). Evidence for a mid-Jurassic adaptive radiation in mammals. \emph{Current Biology} \textbf{25}: 2137--2142. 
+\textbf{37 citations}
+%\href{http://dx.doi.org/10.1016/j.cub.2015.06.047}{http://dx.doi.org/10.1016/j.cub.2015.06.047}
+\vspace{6pt}
+
+\textbf{Close, R.A.}, Davis, Brian M., Wolniewicz, A., Walsh, S., Friedman, M. \& Benson, R.B.J. (2015). A lower jaw of \emph{Palaeoxonodon} from the Middle Jurassic of the Isle of Skye, Scotland, sheds new light on the diversity of British stem therians. \emph{Palaeontology}. 
+\textbf{6 citations}
+%\href{http://dx.doi.org/10.1111/pala.12218}{http://dx.doi.org/10.1111/pala.12218}
+\vspace{6pt}
+
+Friedman, M., Beckett, H.T., \textbf{Close, R.A.} \& Johanson, Z. (2015). The English Chalk and London Clay: two remarkable British bony fish Lagerst\"{a}tten. \emph{Geological Society Special Publications} \textbf{430}, 165--200.
+\textbf{11 citations}
+\vspace{6pt}
+
+
+\textbf{Close, R.A.} \& Rayfield, E.J. (2012). Functional Morphometric Analysis of the Furcula in Mesozoic Birds. \emph{PLoS ONE} \textbf{7}: e36664. 
+\textbf{22 citations}
 %\href{http://dx.doi.org/10.1371/journal.pone.0036664}{http://dx.doi.org/10.1371/journal.pone.0036664}
 
 \vspace{6pt}
 
-Close, R.A., Friedman, M., Lloyd, G.T. \& Benson, R.B.J. (2015). Evidence for a mid-Jurassic adaptive radiation in mammals. \emph{Current Biology} \textbf{25}: 2137-2142. 
-%\href{http://dx.doi.org/10.1016/j.cub.2015.06.047}{http://dx.doi.org/10.1016/j.cub.2015.06.047}
 
+\textbf{Close, R.A.}, Vickers-Rich, P., Trusler, P., Chiappe, L.M., O'Connor, J.K., Rich, T.H., Kool, L. \& Komarower, P. (2009). Earliest Gondwanan bird from the Cretaceous of southeastern Australia. \emph{Journal of Vertebrate Paleontology} \textbf{29}: 616--619. 
+\textbf{7 citations}
+%\href{http://dx.doi.org/10.1671/039.029.0214}{http://dx.doi.org/10.1671/039.029.0214}
+
+\vspace{12pt}
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	TEACHING EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Teaching Experience}
+
+
+\begin{flushleft}
+{\large\emph{Lecturing}}\\
+2017. \textbf{University of Leeds} (Advances in Palaeobiology course guest-lecture, third- and fifth-year levels).\\
+2016--present. \textbf{University of Birmingham} (Evolution of the Vertebrates course, third-year level).\\
+2014. \textbf{University of Oxford} (palaeobiology seminar course, fourth-year level).\\
 \vspace{6pt}
-
-Friedman, M., Beckett, H.T., Close, R.A. \& Johanson, Z. (2015). The English Chalk and London Clay: two remarkable British bony fish Lagerst\"{a}tten. \emph{Geological Society Special Publications} \textbf{430}, 165-200.
-
+{\large\emph{Tutorials}}\\
+2013. \textbf{University of Oxford} (statistics, first-year level).\\
 \vspace{6pt}
-
-Close, R.A., Davis, Brian M., Wolniewicz, A., Walsh, S., Friedman, M. \& Benson, R.B.J. (2015). A lower jaw of \emph{Palaeoxonodon} from the Middle Jurassic of the Isle of Skye, Scotland, sheds new light on the diversity of British stem therians. \emph{Palaeontology}. 
-%\href{http://dx.doi.org/10.1111/pala.12218}{http://dx.doi.org/10.1111/pala.12218}
-
+{\large\emph{Practical Demonstration}}\\
+2008--2012. \textbf{Monash University} (biology, first-year level; palaeobiology, third-year level; included report and essay marking).\\
 \vspace{6pt}
-
-Close, R.A., Johanson, Z., Tyler, J.C., Harrington, R.C. \& Friedman, M. (in review). Mosaicism in new pufferfish family highlights accelerated character evolution near origin of crown tetraodontiforms. \emph{Palaeontology}. 
-
+{\large\emph{Graduate Supervision}}\\
+2016--present. \textbf{Emma Dunne, University of Birmingham}., PhD thesis: `Diversity patterns during the rise of tetrapods.'\\ 
+2016--present. \textbf{Dan Cashmore, University of Birmingham}., PhD thesis: `The quality of the fossil record of tetrapods.'\\
+2016. \textbf{Alexander Butryn, University of Cambridge}. Masters of Computational Biology Summer Project.\\
 \vspace{6pt}
+{\large\emph{Undergraduate Supervision}}\\
+2017. \textbf{Isabel Soane, University of Birmingham}, second-year research project.\\
+2017. \textbf{Kai McWhirter, University of Birmingham}, second-year research project.\\
+\end{flushleft}
 
-Close, R.A. \& Friedman, M.F. (2015). Probing The Third Dimension: Are Morphospaces Derived From 2D And 3D Fossil Fish Crania Congruent? \emph{Paleobiology}, in prep.
 
-%\Vspace{6Pt}
+%----------------------------------------------------------------------------------------
+%	INVITED PRESENTATIONS
+%----------------------------------------------------------------------------------------
 
-%Close, R.A. \& Rayfield, E. (2015). The Ecomechanics Of The Avian Furcula. \Emph{Pnas}, in prep.
+\section{Invited Presentations}
+\begin{flushleft}
+2018. \textbf{Society of Vertebrate Paleontology Annual Meeting}, Salt Lake City, USA. Symposium entitled ``Big questions, big data: the future of community database efforts in vertebrate paleontology''.\\
+2017. \textbf{University of Leeds}, Leeds, UK.\\
+2014. \textbf{Leicester Literature and Philosophical Society}, Leicester.\\
+2012. \textbf{Australian Synchrotron}, Clayton, Australia.\\
+\end{flushleft}
 
+
+%----------------------------------------------------------------------------------------
+%	Professional Service
+%----------------------------------------------------------------------------------------
+
+\section{Professional Service}
+
+\begin{flushleft}
+
+\textbf{Manuscript Reviews}. \emph{Current Biology}, \emph{Methods in Ecology and Evolution}, \emph{Evolution}, \emph{Paleobiology}, \emph{Systematic Biology}, \emph{Proceedings of the Royal Society B}, \emph{Palaeogeography, Palaeoclimatology, Palaeoecology}, \emph{Biology Letters}, \emph{PLoS ONE}.
 \vspace{6Pt}
 
-Close, R.A., Johanson, Z., Wainwright, P. \& Friedman, M. (2015). Patterns Of Morpho-Functional Disparity During The Explosive Radiation Of Acanthomorph Fishes. \emph{Proceedings Of The Royal Society B}, in prep.
-
+\textbf{Grant Reviews}. NERC (Independent Research Fellowship scheme).
 \vspace{6Pt}
 
-Close, R.A., Johanson, Z., Wainwright, P. \& Friedman, M. (2015). Are Morphological And Functional Disparity Correlated Across The Largest Radiation Of Bony Fishes? \emph{Evolution}, in prep.
+\textbf{Council Membership}. Systematics Association (2017--present).\\
+\vspace{6Pt}
+\textbf{Conference co-organisation}. SVPCA 2017, Birmingham. ProgPal 2009, Bristol.
+%\vspace{6Pt}
+
+\end{flushleft}
+
+%----------------------------------------------------------------------------------------
+%	GRANTS
+%----------------------------------------------------------------------------------------
+
+\section{Grants and Awards}
+\begin{flushleft}
+2008--2012. \textbf{Monash University Faculty of Science Dean's Postgraduate Scholarship} (3.5 years). \\
+2009. \textbf{Monash University Travel Grant} (AU\$2500). \\
+2009. \textbf{Jackson School of Geosciences Student Member Travel Grant} (US\$600).
+\end{flushleft}
+
+
+%----------------------------------------------------------------------------------------
+%	FIELDWORK
+%----------------------------------------------------------------------------------------
+
+\section{Fieldwork}
+
+\begin{flushleft}
+2014--(ongoing). \textbf{Middle Jurassic vertebrates from the Isle of Skye, Scotland}. University of Oxford and University of Birmingham.\\
+1999--2012. \textbf{Early Cretaceous vetebrates from Victoria, Australia.} Dinosaur Dreaming project, Monash University and Museum Victoria.\\
+2000. \textbf{Pleistocene tetrapods from the Naracoorte Caves, South Australia.} Flinders University.\\
+1999. \textbf{Oligocene--Pleistocene vertebrates from Lake Palankarinna, South Australia.} Adelaide Museum.\\
+\end{flushleft}
+
+
+
+%----------------------------------------------------------------------------------------
+%	OUTREACH
+%----------------------------------------------------------------------------------------
+
+\section{Selected Outreach and Public Engagement}
+\begin{flushleft}
+2012-2015. Press releases for papers in \emph{Current Biology}, \emph{PLoS ONE} and \emph{Palaeontology}.\\
+
+%2014. Public engagement with amateur fossil-hunters at Medway Fossil and Mineral Society, Rochester.\\
+
+2013. Lecture to UNIQ Summer School students, University of Oxford.\\
+
+2013. Public engagement at Leverhulme Trust headquarters, London.\\
+
+2012. Featured as `PhD Student of the Week' on ABC Radio National's Science Show.\\
+
+
+\end{flushleft}
+
+%Training & `Communicating Science' postgraduate workshop with ABC Catalyst\\ 
+%& presenter Graham Philips; Monash University, Australia (2012)\\
+%\rule{0pt}{2ex}
+%& `Survey Illustrator: Further Techniques' graphic-design course; University of Oxford (2015)\\
+%\rule{0pt}{2ex}
+%& `Get That Grant' introductory funding workshop; University of Oxford (2015)\\
+%\\
+
+
+
+%\textit{In Preparation}
+%
+%%Close, R.A. \& Rayfield, E. (2015). The Ecomechanics Of The Avian Furcula. \Emph{PNAS}, in prep.
+%%\vspace{6Pt}
+%
+%\textbf{Close, R.A.}, Johanson, Z., Wainwright, P. \& Friedman, M. (2016). Are Morphological And Functional Disparity Correlated Across The Largest Radiation Of Bony Fishes? \emph{Evolution}, in prep.
+%\vspace{6Pt}
+%
+%\textbf{Close, R.A.}, Johanson, Z., Wainwright, P. \& Friedman, M. (2016). Patterns Of Morphological and Functional Disparity During The Explosive Radiation Of Acanthomorph Fishes. \emph{Proceedings Of The Royal Society B}, in prep.
+%\vspace{6Pt}
+%
+%\textbf{Close, R.A.} \& Friedman, M.F. (2016). Probing The Third Dimension: Are Morphospaces Derived From 2D And 3D Fossil Fish Crania Congruent? \emph{Paleobiology}, in prep.
 
 \end{flushleft}
 
@@ -260,100 +408,75 @@ Close, R.A., Johanson, Z., Wainwright, P. \& Friedman, M. (2015). Are Morphologi
 %----------------------------------------------------------------------------------------
 %	ABSTRACTS
 %----------------------------------------------------------------------------------------
-\section{Abstracts}
-\begin{flushleft}
-
-Close, R.A. (2008). Earliest Gondwanan bird from the Cretaceous of southeastern Australia. Society of Avian Palaeontology and Evolution, Sydney 2008.\\
-
-\vspace{6pt}
-
-Close, R.A. (2009). Australia's Mesozoic Birds: New Material from the Early Cretaceous of Victoria. [Poster] Society of Vertebrate Paleontology Annual Meeting, September 2009, Bristol.\\
-
-\vspace{6pt}
-
-Close, R.A. (2010). Modelling the mechanical behaviour of the avian furcula. [Poster] Progressive Palaeontology, Bristol.\\
-
-\vspace{6pt}
-
-Close, R.A. \& Rayfield, E.J. (2012). Functional morphometric analysis of the furcula in Mesozoic birds. The Palaeontological Association 55th Annual Meeting, 17th-20th December 2011, Plymouth.\\
-
-\vspace{6pt}
-Close, R.A. \& Evans, A.R. (2012). High-resolution synchrotron microCT of fossils: 3D printing and analysis. Avizo Workshop, August 28 2012, Australian Synchrotron, Clayton.\\
-
-\vspace{6pt}
-
-Close, R.A., Beckett, H., MacLeod, N., Johanson, Z. \& Friedman, M. (2013). Getting inside the heads of Cretaceous-Palaeogene teleosts: new morphological and functional data from the exceptional fish fossils of the English Chalk and London Clay. Symposium on Vertebrate Palaeontology and Comparative Anatomy, Aug. 27-30 2013, Edinburgh.\\
-
-\vspace{6pt}
-
-\begin{samepage}
-Friedman, M., Close, R., Fowler, W. \& Johanson, Z. (2013). Early pufferfishes and kin (Percomorpha: Tetraodontiformes) from the Eocene London Clay: new anatomical insights from computed tomography. 22nd Symposium on Vertebrate Palaeontology and Comparative Anatomy, Aug. 27-30 2013, Edinburgh.\\
-\end{samepage}
-
-\vspace{6pt}
-
-Close, R.A., Beckett, H., MacLeod, N., Johanson, Z. \& Friedman, M. (2014). Getting inside the heads of Cretaceous-Paleogene teleosts: new morphological and functional data from the exceptional fish fossils of the English Chalk and London Clay. Society of Integrative and Comparative Biology Annual Meeting, Jan. 3-7 2014, Austin, TX.\\
-
-\vspace{6pt}
-
-Close, R.A., Johanson, Z., Tyler, J., \& Friedman, M. (2014). A remarkable new beaked tetraodontiform fish from the Early Eocene London Clay Formation. Society of Vertebrate Paleontology Annual Meeting, Nov. 5-8 2014, Berlin.\\
-
-\vspace{6pt}
-
-Close, R.A., Benson, R.B.J., Friedman, M., Walsh, S. \& Wolniewicz, A. (2014). A new representative of stem-lineage Zatheria (Mammalia) from the Middle Jurassic (Bathonian) of the Isle of Skye. Symposium on Vertebrate Palaeontology and Comparative Anatomy, Sept. 2-5 2014, York.\\
-
-\vspace{6pt}
-
-Close, R.A. \& Friedman, M. (2014). Probing the third dimension: are morphospaces derived from 2D and 3D fossil fish crania congruent? Symposium on Vertebrate Palaeontology and Comparative Anatomy, Sept. 2-5 2014, York.\\
-
-\vspace{6pt}
-
-Close, R.A., Friedman, M., Johanson, Z., Beckett, H. and Delbarre, D. (2014). Patterns of morpho-functional disparity during the explosive radiation of acanthomorph fishes. Palaeontological Association Annual Meeting, Dec. 16-19 2014, Leeds.\\
-
-\end{flushleft}
-
-
-%----------------------------------------------------------------------------------------
-%	ADDITIONAL EXPERIENCE
-%----------------------------------------------------------------------------------------
-
-\section{Additional Experience}
-
-\begin{flushleft}
-
-\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-Field Work & Dig-crew member, Dinosaur Dreaming, Australia (1999-2012)\\
-\rule{0pt}{4ex}
-& Excavations with Adelaide Museum at Lake Palankarinna (1999)\\
-\rule{0pt}{4ex}
-& Excavations with Flinders University at the Naracoorte Caves (2000)\\
-\rule{0pt}{4ex}
-& Fieldwork with University of Oxford on Isles of Skye and Eigg (2014, 2016)\\
-\\
-Outreach & Communicated with public on-site at Dinosaur Dreaming fossil excavations (1999-2012)\\
-\rule{0pt}{4ex}
-& Presented `PhD Student of the Week' segment on ABC Radio National's Science Show (2012)\\
-\rule{0pt}{4ex}
-& Presentation to Year 10 students at Strathcona Baptist Girls Grammar School (2012)\\
-\rule{0pt}{4ex}
-& Research communication at Leverhulme Trust headquarters, London (2013)\\
-\rule{0pt}{4ex}
-& Lectured to secondary-school students at UNIQ Summer School, University of Oxford (2013)\\
-\rule{0pt}{4ex}
-& Lectured at Leicester Literature and Philosophical Society (2014)\\
-\rule{0pt}{4ex}
-& Outreach activity at Medway Fossil and Mineral Society, Rochester (2014)\\
-\\
-Training & `Communicating Science' postgraduate workshop with ABC Catalyst\\ 
-& presenter Graham Philips; Monash University, Australia (2012)\\
-\rule{0pt}{4ex}
-& `Survey Illustrator: Further Techniques' graphic-design course; University of Oxford (2015)\\
-\rule{0pt}{4ex}
-& `Get That Grant' introductory funding workshop; University of Oxford (2015)\\
-\\
-\end{tabular}
-
-\end{flushleft}
+%\section{Conference Abstracts}
+%\begin{flushleft}
+% 
+% BES Macro 2017
+%
+% Evolution 2017
+%
+% GSA 2016
+%
+%\textbf{Close, R.A.}, Benson, R.B.J.B. and Butler, R.J. (2016). Controlling for spatial biases removes long-term diversity trends in Mesozoic terrestrial vertebrates. BES Macro 2016, July 7-8, Oxford.
+%
+%\vspace{6pt}
+%
+%\textbf{Close, R.A.} \& Friedman, M. (2016). Probing the third dimension: are morphospaces derived from 2D and 3D fossil fish crania congruent? International Congress on Vertebrate Morphology 2016, June 29 -- July 3, Washington, D.C.\\
+%
+%\vspace{6pt}
+%
+%\textbf{Close, R.A.}, Friedman, M., Lloyd, G.T. \& Benson, R.B.J. (2015). Evidence for a mid-Jurassic adaptive radiation in mammals. Symposium on Vertebrate Palaeontology and Comparative Anatomy, Aug. 31 -- Sept. 4 2015, York.\\
+%
+%\vspace{6pt}
+%
+%\textbf{Close, R.A.}, Friedman, M., Johanson, Z., Beckett, H. and Delbarre, D. (2014). Patterns of morpho-functional disparity during the explosive radiation of acanthomorph fishes. Palaeontological Association Annual Meeting, Dec. 16-19 2014, Leeds.\\
+%
+%\vspace{6pt}
+%
+%\textbf{Close, R.A.}, Benson, R.B.J., Friedman, M., Walsh, S. \& Wolniewicz, A. (2014). A new representative of stem-lineage Zatheria (Mammalia) from the Middle Jurassic (Bathonian) of the Isle of Skye. Symposium on Vertebrate Palaeontology and Comparative Anatomy, Sept. 2-5 2014, York.\\
+%
+%\vspace{6pt}
+%
+%\textbf{Close, R.A.} \& Friedman, M. (2014). Probing the third dimension: are morphospaces derived from 2D and 3D fossil fish crania congruent? Symposium on Vertebrate Palaeontology and Comparative Anatomy, Sept. 2-5 2014, York.\\
+%
+%\vspace{6pt}
+%
+%\textbf{Close, R.A.}, Johanson, Z., Tyler, J., \& Friedman, M. (2014). A remarkable new beaked tetraodontiform fish from the Early Eocene London Clay Formation. Society of Vertebrate Paleontology Annual Meeting, Nov. 5-8 2014, Berlin.\\
+%
+%\vspace{6pt}
+%
+%\textbf{Close, R.A.}, Beckett, H., MacLeod, N., Johanson, Z. \& Friedman, M. (2014). Getting inside the heads of Cretaceous-Paleogene teleosts: new morphological and functional data from the exceptional fish fossils of the English Chalk and London Clay. Society of Integrative and Comparative Biology Annual Meeting, Jan. 3-7 2014, Austin, TX.\\
+%
+%\vspace{6pt}
+%Friedman, M., \textbf{Close, R.A.}, Fowler, W. \& Johanson, Z. (2013). Early pufferfishes and kin (Percomorpha: Tetraodontiformes) from the Eocene London Clay: new anatomical insights from computed tomography. 22nd Symposium on Vertebrate Palaeontology and Comparative Anatomy, Aug. 27-30 2013, Edinburgh.\\
+%
+%\vspace{6pt}
+%
+%\textbf{Close, R.A.}, Beckett, H., MacLeod, N., Johanson, Z. \& Friedman, M. (2013). Getting inside the heads of Cretaceous-Palaeogene teleosts: new morphological and functional data from the exceptional fish fossils of the English Chalk and London Clay. Symposium on Vertebrate Palaeontology and Comparative Anatomy, Aug. 27-30 2013, Edinburgh.\\
+%
+%\vspace{6pt}
+%
+%\textbf{Close, R.A.} \& Evans, A.R. (2012). High-resolution synchrotron microCT of fossils: 3D printing and analysis. Avizo Workshop, August 28 2012, Australian Synchrotron, Clayton.\\
+%
+%\vspace{6pt}
+%
+%\textbf{Close, R.A.} \& Rayfield, E.J. (2012). Functional morphometric analysis of the furcula in Mesozoic birds. The Palaeontological Association 55th Annual Meeting, 17th-20th December 2011, Plymouth.\\
+%
+%\vspace{6pt}
+%
+%Close, R.A. (2010). Modelling the mechanical behaviour of the avian furcula. [Poster] Progressive Palaeontology, Bristol.\\
+%
+%\vspace{6pt}
+%
+%Close, R.A. (2009). Australia's Mesozoic Birds: New Material from the Early Cretaceous of Victoria. [Poster] Society of Vertebrate Paleontology Annual Meeting, September 2009, Bristol.\\
+%
+%\vspace{6pt}
+%
+%\textbf{Close, R.A.} (2008). Earliest Gondwanan bird from the Cretaceous of southeastern Australia. Society of Avian Palaeontology and Evolution, Sydney 2008.\\
+%
+%\vspace{6pt}
+%
+%\end{flushleft}
 
 
 %----------------------------------------------------------------------------------------
